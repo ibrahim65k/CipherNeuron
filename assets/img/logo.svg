@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">CipherNeuron mark</title>
+  <desc id="desc">A geometric neural node protected by an angular shield.</desc>
+  <defs>
+    <linearGradient id="g" x1="8" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#53DFFF"/>
+      <stop offset=".55" stop-color="#477DFF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4 54 13v16c0 14.6-8.4 24.4-22 31C18.4 53.4 10 43.6 10 29V13L32 4Z" fill="#101C32" stroke="url(#g)" stroke-width="2.2"/>
+  <path d="M19 27.5 31.8 19l13.2 8.5v10L32 46l-13-8.5v-10Z" fill="none" stroke="url(#g)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m19 27.5 13 8.4 13-8.4M32 35.9V46" fill="none" stroke="#53DFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="19" cy="27.5" r="3" fill="#53DFFF"/>
+  <circle cx="32" cy="19" r="3" fill="#A78BFA"/>
+  <circle cx="45" cy="27.5" r="3" fill="#53DFFF"/>
+  <circle cx="32" cy="46" r="3" fill="#477DFF"/>
+</svg>

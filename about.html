@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080D18">
+  <meta name="description" content="Learn about CipherNeuron, its educational philosophy, curriculum structure, and responsible-use principles.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About CipherNeuron — AI & Cybersecurity Learning Atlas">
+  <meta property="og:description" content="Learn about CipherNeuron, its educational philosophy, curriculum structure, and responsible-use principles.">
+  <meta property="og:image" content="assets/img/hero-network.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About CipherNeuron — AI & Cybersecurity Learning Atlas">
+  <meta name="twitter:description" content="Learn about CipherNeuron, its educational philosophy, curriculum structure, and responsible-use principles.">
+  <title>About | CipherNeuron</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/data/course-index.js"></script>
+  <script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="about">
+  <div data-site-header></div>
+  <main id="main-content" class="page-main">
+    <div class="container">
+      <div data-breadcrumbs></div>
+      <section class="about-hero">
+        <span class="eyebrow">ABOUT CIPHERNEURON</span>
+        <h1>A learning atlas for the intersection of intelligence and security.</h1>
+        <p>CipherNeuron organizes the knowledge needed to understand modern AI, build practical systems, use AI responsibly in security work, and evaluate AI technologies as systems with their own attack surfaces and risks.</p>
+      </section>
+      <section class="content-section">
+        <div class="section-heading"><div><span class="eyebrow">WHY THIS PLATFORM</span><h2>Connected knowledge, not isolated tutorials.</h2><p>The curriculum follows the relationships between concepts so learners can build a mental model that transfers to real engineering and security work.</p></div></div>
+        <div class="about-principles">
+          <article class="principle-card"><span>01 / FOUNDATIONS</span><h3>Understand before applying</h3><p>Start with the core ideas, terminology, mechanisms, and limitations before moving into tools and advanced practices.</p></article>
+          <article class="principle-card"><span>02 / PRACTICE</span><h3>Learn by building and testing</h3><p>Connect theory to model execution, application development, controlled labs, and repeatable assessment workflows.</p></article>
+          <article class="principle-card"><span>03 / VALIDATION</span><h3>Keep human judgment central</h3><p>Use AI outputs as assistance, verify important claims, preserve scope boundaries, and document evidence clearly.</p></article>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="section-heading"><div><span class="eyebrow">CURRICULUM DESIGN</span><h2>Four progressive learning parts</h2></div></div>
+        <div class="progression-grid">
+          <article class="progression-item"><span class="progression-number">PART 01</span><strong>AI Fundamentals</strong><p>Understand AI, ML, deep learning, LLMs, and system architectures.</p></article>
+          <article class="progression-item"><span class="progression-number">PART 02</span><strong>AI Development</strong><p>Work with models, libraries, local inference, and applications.</p></article>
+          <article class="progression-item"><span class="progression-number">PART 03</span><strong>AI-Assisted Security</strong><p>Apply AI within authorized offensive security workflows.</p></article>
+          <article class="progression-item"><span class="progression-number">PART 04</span><strong>AI Security & Red Teaming</strong><p>Assess AI-specific attack surfaces, risks, and defenses.</p></article>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="section-heading"><div><span class="eyebrow">RESPONSIBLE LEARNING</span><h2>Scope, evidence, and safety matter.</h2></div></div>
+        <div class="disclaimer-box">CipherNeuron is an educational resource. Cybersecurity activities must be conducted only on systems you own, controlled labs, or systems for which you have explicit authorization. AI-generated content may be inaccurate or incomplete; verify technical claims, commands, and security findings independently before relying on them.</div>
+      </section>
+    </div>
+  </main>
+  <div data-site-footer></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      CipherNeuron.updateDocumentTitle("About");
+      CipherNeuron.renderBreadcrumbs(document.querySelector("[data-breadcrumbs]"), [
+        { label: "Home", href: "index.html" }, { label: "About" }
+      ]);
+    });
+  </script>
+</body>
+</html>
